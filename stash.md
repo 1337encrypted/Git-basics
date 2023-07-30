@@ -5,6 +5,6 @@ Ideally if you want to checkout to another branch without saving current progres
 | :--- | :--- |
 | To stash progress |`git stash save 'reason for stashing'`|
 | To list all stashes|`git stash list`|
-| To get back stashed items| `git stash apply <stash@(number)>` |
+| To get back stashed items| `git stash apply <stash@{number}>` |
 
 

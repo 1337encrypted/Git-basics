@@ -22,6 +22,10 @@
 `git add .`   # All files
 `git add -u`	# recently modified files
 
+## Remove files to the staging area
+
+`git rm --cached <file>`  # Unstages the file from staging area
+
 ## Commit files
 
 `git commit -m <description>`

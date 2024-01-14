@@ -10,7 +10,7 @@
 
 ## setting up name and email global, remove global to make it local
 
-`git config --global user.name <name>`
+`git config --global user.name <name>`     
 `git config --global user.email <email@example.com>`
 
 ## Check status

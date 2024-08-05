@@ -30,24 +30,23 @@
 
 `git commit -m <description>`
 
-# Traversing git history
+## Traversing git history
 
 `git log`
 
-# -u is all the changes made in the repo
+## -u is all the changes made in the repo
 
 `git push -u origin main:main`
 
-# merge the fetch as fetch wont be merged
+## merge the fetch as fetch wont be merged
 
 `git merge origin main`
 
-# fetch and integrate into the local repository
+## fetch and integrate into the local repository
 
 `git pull origin main:main`
 
-
-# Git push
+## Git push
 
 `git push <remote locl_branch>:<remote_branch>`
 

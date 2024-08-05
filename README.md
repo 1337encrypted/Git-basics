@@ -10,8 +10,8 @@
 
 ## setting up name and email global, remove global to make it local
 
-`git config --global user.name <name>`     
-`git config --global user.email <email@example.com>`
+`git config --global/--local user.name <name>`     
+`git config --global/--local user.email <email@example.com>`
 
 ## Check status
 
@@ -24,7 +24,7 @@
 
 ## Remove files to the staging area
 
-`git rm --cached <file>`  # Unstages the file from staging area
+`git restore --staged <file>`  # Unstages the file from staging area
 
 ## Commit files
 
@@ -36,7 +36,7 @@
 
 # -u is all the changes made in the repo
 
-`git push -u origin main`
+`git push -u origin main:main`
 
 # merge the fetch as fetch wont be merged
 
@@ -44,7 +44,7 @@
 
 # fetch and integrate into the local repository
 
-`git pull origin main`
+`git pull origin main:main`
 
 
 # Git push

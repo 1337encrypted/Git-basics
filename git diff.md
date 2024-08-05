@@ -3,10 +3,10 @@
 ## Add this to the .git/config file
 git config diff.tool vimdiff
 
-# show diff between tracked files in the working and staging area
+## show diff between tracked files in the working and staging area
 ` git diff`
 
-# show diff between staging area and most recent commit, in short shows what we are about to commit
+## show diff between staging area and most recent commit, in short shows what we are about to commit
 `git diff --staged`
 
 ## diff info with previous commit
